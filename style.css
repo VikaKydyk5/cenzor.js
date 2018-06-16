@@ -1,0 +1,52 @@
+.container{
+  width: 400px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+    margin: 10px 450px;
+}
+#tex{
+    width: 250px;
+    height: 30px;
+    font-family: sans-serif;
+    color: green;
+    font-size: 20px;
+}
+#word{
+    margin-left: -10px;
+}
+#add{
+    width: 100px;
+    height: 20px;
+}
+.cenz{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.text{
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+}
+
+#text{
+  resize: none;
+  height: 180px;
+    margin: 8px 0;
+}
+
+p{
+  color: red;
+  width: 300px;
+}
+
+#submit{
+  cursor: pointer;
+    width: 70px;
+    height: 20px;
+}
